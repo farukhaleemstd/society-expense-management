@@ -1,0 +1,3 @@
+-- Run after creating the first admin auth user, replacing the UUID.
+-- insert into public.profiles (id, full_name, role)
+-- values ('00000000-0000-0000-0000-000000000000', 'Society Administrator', 'admin');
