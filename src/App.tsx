@@ -2170,6 +2170,9 @@ function App() {
                 <button className={role === 'admin' ? 'active' : ''} onClick={() => { setRole('admin'); setView('dashboard') }}>Admin</button>
               </div>
             )}
+            <button className="icon-button mobile-sign-out" aria-label="Sign out" onClick={signOut}>
+              <LogOut size={17} />
+            </button>
             <div className="notification-menu">
               <button
                 className="icon-button"

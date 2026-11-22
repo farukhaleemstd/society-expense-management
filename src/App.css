@@ -71,6 +71,7 @@
 .role-switch button { border: 0; background: transparent; height: 30px; padding: 0 10px; border-radius: 5px; color: #87918d; font-size: 10px; }
 .role-switch button.active { background: white; color: var(--green-900); box-shadow: 0 1px 4px rgba(38,68,56,.1); font-weight: 800; }
 .icon-button { width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 50%; background: #fff; color: #69756f; position: relative; display: grid; place-items: center; }
+.mobile-sign-out { display: none; }
 .icon-button span { position: absolute; width: 7px; height: 7px; border-radius: 50%; background: #d5a54b; right: 7px; top: 7px; border: 1px solid white; }
 .notification-menu { position: relative; }
 .icon-button .notification-count { width: auto; min-width: 16px; height: 16px; top: -4px; right: -5px; padding: 0 4px; display: grid; place-items: center; border-radius: 12px; background: #b94b42; color: #fff; font-size: 8px; font-style: normal; font-weight: 800; }
@@ -318,6 +319,8 @@
   .topbar h1 { font-size: 17px; }
   .breadcrumb { display: none; }
   .role-switch { display: none; }
+  .top-actions { gap: 8px; }
+  .mobile-sign-out { display: grid; }
   .content { padding: 22px 14px calc(84px + var(--mobile-footer-clearance) + env(safe-area-inset-bottom, 0px)); }
   .welcome-row h2 { font-size: 23px; }
   .metric-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
